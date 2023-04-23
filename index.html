@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+          <div class="boxOne">
+            <div class="row">
+                <div class="group">
+                    <label for="number-select">عدد الاصول</label>
+                    <select class="selectNum" id="number-select" name="number-select" required>
+                      <option value="">أختر عددالاصول</option>
+                      <option id="option1" value="1">1</option>
+                      <option id="option2" value="2">2</option>
+                      <option id="option3" value="3">3</option>
+                      <option id="option4" value="4">4</option>
+                      <option id="option5" value="5">5</option>
+                      <option id="option6" value="6">6</option>
+                      <option id="option7" value="7">7</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row textarea">
+                <div class="group">
+                    <label for="">اعلان عن المزاد</label>
+                    <textarea name="textarea" id="" cols="10" rows="6" maxlength="100"></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="group">
+                    <label class="">نوع المزاد</label>
+                    <select name="select"  id="select" size="1" required>
+                        <option value="">افتراضي</option>
+                        <option value="">حضوري</option>
+                        <option value="">حضوري وافتراضي</option>
+                    </select>
+                </div>
+                <div class="group">
+                    <label class="">الدولة</label>
+                    <select name="select" id="" size="1" required>
+                        <option value="">أختر الدولة</option>
+                        <option value="">السعودية</option>
+                    </select>
+                </div>
+                <div class="group">
+                    <label for="">المدينه</label>
+                    <select name="select" id="">
+                        <option value="">اختر المدينة</option>
+                        <option value="جدة">جدة</option>
+                        <option value="المدينة المنورة">المدينة المنورة</option>
+                        <option value="جيزان">جيزان</option>
+                        <option value="خميس مشيط">خميس مشيط</option>
+                        <option value="مكة المكرمة">مكة المكرمة</option>
+                        <option value="الرياض">الرياض</option>
+                        <option value="شرورة">شرورة</option>
+                        <option value="نجران">نجران</option>
+                        <option value="الطايف">الطايف</option>
+                        <option value="الدمام">الدمام</option>
+                        <option value="الخبر">الخبر</option>
+                        <option value="الجبيل">الجبيل</option>
+                        <option value="الاحساء">الاحساء</option>
+                        <option value="حائل">حائل</option>
+                        <option value="القصيم">القصيم</option>
+                        <option value="عرعر">عرعر</option>
+                        <option value="الجوف">الجوف</option>
+                        <option value="ينبع">ينبع</option>
+                        <option value="ابها">ابها</option>
+                        <option value="حفر الباطن">حفر الباطن</option>
+                        <option value="الباحة">الباحة</option>
+                        <option value="تبوك">تبوك</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="group">
+                    <label for="party">تاريخ بداية المزاد</label>
+                    <input
+                      id="party"
+                      type="datetime-local"
+                      name="partydate"
+                      value="2017-06-01T08:30" 
+                      step="60"/>
+                </div>
+                <div class="group">
+                    <label for="party2">تاريخ نهاية المزاد</label>
+                    <input
+                    id="party2"
+                    type="datetime-local"
+                    name="partydate"
+                    value="2017-06-01T08:30"
+                    step="60" />
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="group">
+                    <label for="">الصوره الرئيسيه للمزاد</label>
+                    <input type="file" name="gggggg" id="">
+                </div>
+                <div class="group">
+                    <label for="">تحميل الملفات</label>
+                    <input type="file" name="gggggg" id="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="group">
+                    <label for="">رابط YouTube :</label>
+                    <input type="text" name="YouTubeLinke" id="">
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="boxTwo">
+            
+        </div>
+        <input type="submit" value="Send" class="btnSubmit">
+    </form>
+
+      </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

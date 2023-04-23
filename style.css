@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    transition: .3s;
+}
+input{
+    outline: none;
+    padding: 10px;
+    border: 1px solid #0f888e7e;
+}
+label{
+    opacity: 80%;
+    font-weight: bold;
+}
+select{
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border: 1px solid #0f888e7e;
+    font-family: 'Cairo', sans-serif;
+}
+textarea{
+    padding: 5px;
+    outline: none;
+    border: 1px solid #0f888e7e;
+}
+textarea:focus{
+    font-weight: bold;
+    border: 1px solid #0F888E;
+}
+select:focus{
+    border: 1px solid #0F888E;
+}
+input:focus{
+    font-weight: bold;
+    border: 1px solid #0F888E;
+}
+.color{
+    width: 100%;
+    height: 100%;
+}
+.btnSubmit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98.5%;
+    margin: 30px auto;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    background-color: #0F888E;
+}
+/* Start Style  */
+.container{
+    padding: 20px;
+    direction: rtl;
+}
+.container form .boxOne{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container form .boxOne .row{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.container form .boxOne .row .group{
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Start Tow Div  */
+.container form .boxTwo .newDiv{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin: 30px 0 !important;
+    background-color: #0f888e30;
+}
+.container form .boxTwo .newDiv .row{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.container form .boxTwo .newDiv .row .group{
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.container .boxTwo .newDiv .carDiv .cars-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.container .boxTwo .newDiv .carDiv .cars-section .row-group{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.container .boxTwo .newDiv .realDiv .real-state{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.container .boxTwo .newDiv .realDiv .real-state .group-checkbox{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.container .boxTwo .newDiv .carDiv .cars-section .row-group{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+
+@media (max-width: 750px){
+    .row{
+        flex-direction: column;
+    }
+    .row-group{
+        flex-direction: column;
+    }
+}
+@media (max-width: 350px) {
+    select {
+        padding: 5px;
+        background-color: white;
+    }
+    .boxOne,
+    .boxTwo{
+        font-size: 12px;
+    }
+    .container {
+        padding: 7px;
+    }
+    .container form .boxTwo .newDiv {
+        padding: 10px 5px;
+    }
+    .container form .boxTwo .newDiv .row{
+        gap: 10px;
+    }
+    .container form .boxTwo .newDiv .row .group {
+        gap: 5px;
+    }
+}

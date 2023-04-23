@@ -22,6 +22,7 @@ select{
     padding: 10px;
     border: 1px solid #0f888e7e;
     font-family: 'Cairo', sans-serif;
+    background-color: transparent;
 }
 textarea{
     padding: 5px;
